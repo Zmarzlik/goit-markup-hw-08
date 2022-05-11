@@ -1,0 +1,26 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --main-color: #212121;
+    --secondary-color: #2196f3;
+    --white-color: #ffffff;
+    --grey-color: #757575;
+    --background-color: #2f303a;
+    --second-background-color: #f5f4fa;
+    --third-backgroundcolor: rgba(47, 48, 58, 0.8);
+    --footer-color: rgba(255, 255, 255, 0.6);
+    --button-background-color: #f5f4fa;
+    --backdrop-background-color: rgba(0, 0, 0, 0.2);
+    --main-button-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    --menu-button-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --white-border-color: #eeeeee;
+    --caption-shadow: rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    --icon-first-color: #afb1b8;
+    --icon-second-color: rgba(255, 255, 255, 0.1);
+    --portfolio-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    --modal-window-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,53 @@
+   .foot-navigation {
+
+    &__logo-white {
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1, 192;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: var(--white-color);
+    }
+
+    &__list {
+        list-style-type: none;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item-adress {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.333;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        font-style: normal;
+        color: var(--white-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__item-adress:hover,
+    &__item-adress:focus,
+    &__item-adress:active {
+            color: var(--secondary-color);
+    }
+
+    &__item-contacts {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.333;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        font-style: normal;
+        color: var(--footer-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__item-contacts:hover,
+    &__item-contacts:focus,
+    &__item-contacts:active {
+        color: var(--secondary-color);
+    }
+}

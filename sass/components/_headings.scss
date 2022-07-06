@@ -1,0 +1,64 @@
+h1 {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.615;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+  h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172;
+    letter-spacing: 0.03em;
+  }
+}

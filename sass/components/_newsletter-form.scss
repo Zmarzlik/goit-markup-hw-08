@@ -1,0 +1,52 @@
+.newsletter-form {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  &__email-input-field {
+    width: 100%;
+    height: 50px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--footer-contacts);
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__email-input-field:active,
+  &__email-input-field:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+  }
+
+  &__modal-btn {
+    display: flex;
+    position: relative;
+    padding-right: 74px;
+    width: max-content;
+    height: 50px;
+  }
+
+  &__modal-btn .send-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 28px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .newsletter-form {
+    display: flex;
+
+    &__email-input-field {
+      width: 358px;
+      margin-right: 12px;
+    }
+  }
+}

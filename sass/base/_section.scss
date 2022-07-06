@@ -1,0 +1,23 @@
+.section {
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+  &__title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+
+  &--darker-bg {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #f5f4fa;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}

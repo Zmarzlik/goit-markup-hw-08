@@ -1,0 +1,28 @@
+.about-us {
+  display: none;
+}
+
+
+@media screen and (min-width:1200px) {
+  .about-us {
+    display: block;
+
+    &__list {
+      margin-bottom: -70px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__list-title {
+      position: relative;
+      padding: 0;
+      bottom: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--third-color);
+      background-color: rgba(47, 48, 58, 0.8);
+    }
+  }
+}

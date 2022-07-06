@@ -1,0 +1,23 @@
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  &__list {
+    display: block;
+    margin-top: 20px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    color: var(--footer-contacts);
+
+    &--accent {
+      color: var(--third-color);
+    }
+  }
+}

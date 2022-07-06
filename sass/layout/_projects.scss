@@ -1,0 +1,17 @@
+.projects {
+  padding-top: 0;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects {
+
+    &__list {
+      margin: -15px;
+    }
+  }
+}

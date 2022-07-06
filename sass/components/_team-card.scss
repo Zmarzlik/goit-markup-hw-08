@@ -1,0 +1,49 @@
+.team-card {
+  margin-bottom: 30px;
+  background-color: var(--third-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__img {
+    margin: 0 auto;
+  }
+
+  &__wrapper {
+    padding: 30px 0px 16px;
+  }
+
+  &__job-title {
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--fourth-color);
+  }
+
+  &__name {
+    margin-bottom: 10px;
+  }
+
+  &__social-list {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .team-card:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .team-card:nth-last-child(-n + 2) {
+    margin-bottom: 30px;
+  }
+}
+
+

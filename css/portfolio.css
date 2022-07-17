@@ -69,30 +69,29 @@ img {
 }
 
 .container {
-  margin: 0 auto;
+  width: 100%;
   padding: 0 15px;
+  align-items: center;
+  margin: 0px auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
-    margin: 0 auto;
+    max-width: 480px;
     padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    margin: 0 auto;
+    max-width: 768px;
     padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
     padding: 0 15px;
   }
 }
@@ -378,6 +377,7 @@ h4 {
   transition-property: color, box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  margin-bottom: 30px;
 }
 
 .project-case:hover {

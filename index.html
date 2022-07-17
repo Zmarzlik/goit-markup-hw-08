@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl_PL">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8" />
@@ -97,7 +97,7 @@
 
         <section class="hero">
             <div class="container">
-                <h1 class="hero__title">Efektywne rozwiązania dla waszego biznesu</h1>
+                <h1 class="hero__title">Efektywne rozwiązania <br> dla waszego biznesu</h1>
                 <button class="modal-btn" type="button" data-modal-open="">
                     Zamów usługę
                 </button>
@@ -195,16 +195,19 @@
                 <ul class="team-list">
                     <li class="team-card">
                         <picture>
-                            <source media="(min-width: 1200px)"
-                                srcset="images/our-tam/product-designer-desktop.jpg 1x, images/our-tam/product-designer-desktop-@2x.jpg 2x">
-
-                            <source media="(min-width: 768px)"
-                                srcset="images/our-tam/product-designer-tablet.jpg 1x, images/our-tam/product-designer-tablet-@2x.jpg 2x">
-
-                            <source srcset="images/our-tam/product-designer-mobile-@2x.jpg 2x">
-
-                            <img class="team-card__img" src="images/our-tam/product-designer-mobile.jpg"
-                                alt="John Doe - product designer" />
+                            <source 
+                                srcset="images/our-tam/productdesigner_mobile@1x.jpg 1x, images/our-tam/productdesigner_mobile@2x.jpg 2x"
+                                media="(min-width:320px) and (max-width:767px)" />
+                            <source 
+                                srcset="images/our-tam/productdesigner_tablet@1x.jpg 1x, images/our-tam/productdesigner_tablet@2x.jpg 2x"
+                                media="(min-width:768px) and (max-width:1199px)" />
+                            <source 
+                                srcset="images/our-tam/productdesigner_desktop@1x.jpg 1x, images/our-tam/productdesigner_desktop@2x.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <img class="team-card__img" 
+                                src="images/our-tam/productdesignerresized.jpg" 
+                                alt="Product Designer" 
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"/>
                         </picture>
                         <div class="team-card__wrapper">
                             <h4 class="team-card__name">John Doe</h4>
@@ -245,21 +248,21 @@
                     </li>
                     <li class="team-card">
                         <picture>
-                            <source media="(min-width: 1200px)"
-                                srcset="images/our-tam/frontend-developer-desktop.jpg 1x, images/our-tam/frontend-developer-desktop-@2x.jpg 2x">
-
-                            <source media="(min-width: 768px)"
-                                srcset="images/our-tam/frontend-developer-tablet.jpg 1x, images/our-tam/frontend-developer-tablet-@2x.jpg 2x">
-
-                            <source srcset="images/our-tam/frontend-developer-mobile-@2x.jpg 2x">
-
-                            <img class="team-card__img" src="images/our-tam/frontend-developer-mobile.jpg"
-                                alt="John Doe - frontend developer" />
+                            <source srcset="images/our-tam/frontenddeveloper_mobile@1x.jpg 1x, images/our-tam/frontenddeveloper_mobile@2x.jpg 2x"
+                                media="(min-width:320px) and (max-width:767px)" />
+                            <source srcset="images/our-tam/frontenddeveloper_tablet@1x.jpg 1x, images/our-tam/frontenddeveloper_tablet@2x.jpg 2x"
+                                media="(min-width:768px) and (max-width:1199px)" />
+                            <source srcset="images/our-tam/frontenddeveloper_desktop@1x.jpg 1x, images/our-tam/frontenddeveloper_desktop@2x.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <img class="team-card__img" 
+                                src="images/our-tam/frontenddeveloperresized.jpg" 
+                                alt="Frontend Developer" 
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"/>
                         </picture>
-                        <div class="team-card__wrapper">
-                            <h4 class="team-card__name">John Doe</h4>
-                            <p class="team-card__job-title">Frontend Developer</p>
-                        </div>
+                            <div class="team-card__wrapper">
+                                <h4 class="team-card__name">John Doe</h4>
+                                <p class="team-card__job-title">Frontend Developer</p>
+                            </div>
                         <div class="team-card__social-list">
                             <ul class="social-list">
                                 <li class="social-list__item">
@@ -295,16 +298,19 @@
                     </li>
                     <li class="team-card">
                         <picture>
-                            <source media="(min-width: 1200px)"
-                                srcset="images/our-tam/marketing-desktop.jpg 1x, images/our-tam/marketing-desktop-@2x.jpg 2x">
-
-                            <source media="(min-width: 768px)"
-                                srcset="images/our-tam/marketing-tablet.jpg 1x, images/our-tam/marketing-tablet-@2x.jpg 2x">
-
-                            <source srcset="images/our-tam/marketing-mobile-@2x.jpg 2x">
-
-                            <img class="team-card__img" src="images/our-tam/marketing-mobile.jpg"
-                                alt="John Doe - marketing" />
+                            <source 
+                                srcset="images/our-tam/marketing_mobile@1x.jpg 1x, images/our-tam/marketing_mobile@2x.jpg 2x"
+                                media="(min-width:320px) and (max-width:767px)" />
+                            <source 
+                                srcset="images/our-tam/marketing_tablet@1x.jpg 1x, images/our-tam/marketing_tablet@2x.jpg 2x"
+                                media="(min-width:768px) and (max-width:1199px)" />
+                            <source 
+                                srcset="images/our-tam/marketing_desktop@1x.jpg 1x, images/our-tam/marketing_desktop@2x.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <img class="team-card__img" 
+                                src="images/our-tam/marketingresized.jpg" 
+                                alt="Marketing" 
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"/>
                         </picture>
                         <div class="team-card__wrapper">
                             <h4 class="team-card__name">John Doe</h4>
@@ -345,16 +351,19 @@
                     </li>
                     <li class="team-card">
                         <picture>
-                            <source media="(min-width: 1200px)"
-                                srcset="images/our-tam/ui-designer-desktop.jpg 1x, images/our-tam/ui-designer-desktop-@2x.jpg 2x">
-
-                            <source media="(min-width: 768px)"
-                                srcset="images/our-tam/ui-designer-tablet.jpg 1x, images/our-tam/ui-designer-tablet-@2x.jpg 2x">
-
-                            <source srcset="images/our-tam/ui-designer-mobile-@2x.jpg 2x">
-
-                            <img class="team-card__img" src="images/our-tam/ui-designer-mobile.jpg"
-                                alt="John Doe - ui designer" />
+                            <source 
+                                srcset="images/our-tam/uidesigner_mobile@1x.jpg 1x, images/our-tam/uidesigner_mobile@2x.jpg 2x"
+                                media="(min-width:320px) and (max-width:767px)" />
+                            <source 
+                                srcset="images/our-tam/uidesigner_tablet@1x.jpg 1x, images/our-tam/uidesigner_tablet@2x.jpg 2x"
+                                media="(min-width:768px) and (max-width:1199px)" />
+                            <source 
+                                srcset="images/our-tam/fuidesigner_desktop@1x.jpg 1x, images/our-tam/uidesigner_desktop@2x.jpg 2x"
+                                media="(min-width:1200px)" />
+                            <img class="team-card__img" 
+                                src="images/our-tam/uidesignerresized.jpg" 
+                                alt="UI Designer" 
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"/>
                         </picture>
                         <div class="team-card__wrapper">
                             <h4 class="team-card__name">John Doe</h4>

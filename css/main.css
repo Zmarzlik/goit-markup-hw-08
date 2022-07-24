@@ -77,22 +77,23 @@ img {
 
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 480px;
     padding: 0 15px;
+    align-items: center;
+    margin: 0px auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
     padding: 0 15px;
+    align-items: center;
+    margin: 0px auto;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    padding: 0 15px;
   }
 }
 
@@ -337,18 +338,11 @@ h4 {
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
-    letter-spacing: 0.06em;
-    text-align: center;
   }
   h2 {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1.166;
-    letter-spacing: 0.03em;
-    text-align: center;
   }
   h3 {
     font-weight: 700;
@@ -358,11 +352,7 @@ h4 {
     text-align: center;
   }
   h4 {
-    font-weight: 500;
     font-size: 16px;
-    line-height: 1.187;
-    letter-spacing: 0.03em;
-    text-align: center;
   }
   h5 {
     font-weight: 700;
@@ -425,7 +415,7 @@ h4 {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
 }
@@ -612,7 +602,7 @@ h4 {
   padding: 40px;
   left: 50%;
   top: 50%;
-  width: 528px;
+  max-width: 528px;
   background-color: var(--third-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -625,14 +615,14 @@ h4 {
 }
 
 .modal__modal-btn {
-  width: 200px;
+  max-width: 200px;
 }
 
 .modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
-  width: 30px;
+  max-width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -640,11 +630,13 @@ h4 {
   background-position: center;
   background-size: cover;
   cursor: pointer;
+  margin: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .modal {
-    max-width: 450px;
+    padding-left: auto;
+    padding-right: auto;
   }
 }
 
@@ -712,6 +704,7 @@ h4 {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--fourth-color);
+  cursor: pointer;
 }
 
 .modal-form__policy-text::before {
@@ -908,6 +901,10 @@ h4 {
   padding-bottom: 0;
 }
 
+.paragraphs__title {
+  font-weight: 700;
+}
+
 .paragraphs__list-item {
   margin-bottom: 30px;
 }
@@ -1074,7 +1071,10 @@ h4 {
     align-items: baseline;
     justify-content: space-between;
   }
-  .footer__leftn, .footer__center {
+  .footer__left {
+    flex-basis: 50%;
+  }
+  .footer__center {
     flex-basis: 50%;
     margin-top: 0;
   }

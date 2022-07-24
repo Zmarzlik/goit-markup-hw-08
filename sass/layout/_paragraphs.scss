@@ -1,6 +1,10 @@
 .paragraphs {
   padding-bottom: 0;
 
+  &__title {
+    font-weight: 700;
+  }
+
   &__list-item {
     margin-bottom: 30px;
   }

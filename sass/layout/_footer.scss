@@ -38,10 +38,13 @@
       justify-content: space-between;
     }
 
-    &__leftn,
+    &__left {
+      flex-basis: 50%
+    }
     &__center {
       flex-basis: 50%;
       margin-top: 0;
+     
     }
 
     &__right {

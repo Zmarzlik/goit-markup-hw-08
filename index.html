@@ -106,109 +106,21 @@
 
 <!--section:paragraphs-->
 
-        <section class="paragraphs section">
-            <div class="container">
-                <h2 hidden>Zalety</h2>
-                <ul class="paragraphs__list">
-                    <li class="paragraphs__list-item">
-                        <div class="paragraphs__list-icon">
-                            <svg class="paragraphs-icon" width="70" height="70">
-                                <use href="images/icons.svg#icon-antenna"></use>
-                            </svg>
-                        </div>
-                        <p class="paragraphs__title">LOREM IPSUM</p>
-                        <p class="paragraphs__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                            arcu sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li class="paragraphs__list-item">
-                        <div class="paragraphs__list-icon">
-                            <svg class="paragraphs-icon" width="70" height="70">
-                                <use href="images/icons.svg#icon-clock"></use>
-                            </svg>
-                        </div>
-                        <p class="paragraphs__title">LOREM IPSUM</p>
-                        <p class="paragraphs__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                            arcu sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li class="paragraphs__list-item">
-                        <div class="paragraphs__list-icon">
-                            <svg class="paragraphs-icon" width="70" height="70">
-                                <use href="images/icons.svg#icon-diagram"></use>
-                            </svg>
-                        </div>
-                        <p class="paragraphs__title">LOREM IPSUM</p>
-                        <p class="paragraphs__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                            arcu sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                    <li class="paragraphs__list-item">
-                        <div class="paragraphs__list-icon">
-                            <svg class="paragraphs-icon" width="70" height="70">
-                                <use href="images/icons.svg#icon-astronaut"></use>
-                            </svg>
-                        </div>
-                        <p class="paragraphs__title">LOREM IPSUM</p>
-                        <p class="paragraphs__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                            arcu sem. Sed non sodales dui. Interdum et malesuada
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-<!--section:Czym się zajmujemy-->
-
-        <section class="about-us section">
-            <div class="container">
-                <h2 class="section__title">Czym się zajmujemy</h2>
-                <ul class="about-us__list">
-                    <li class="about-us-list-item">
-                        <img class="about-us__list-img" src="images/what-we-do/keyboard-box1.jpg"
-                            alt="pisanie kodu na komputerze" width="370" height="294" />
-                        <span class="about-us__list-title advantages__text">Aplikacje komputerowe</span>
-                    </li>
-                    <li class="about-us__list-item">
-                        <img class="about-us__list-img" src="images/what-we-do/phone-box2.jpg"
-                            alt="tworzenie aplikacji mobilnej" width="370" height="294" />
-                        <span class="about-us__list-title advantages__text">Aplikacje mobilne</span>
-                    </li>
-                    <li class="about-us__list-item">
-                        <img class="about-us__list-img" src="images//what-we-do/tablet-box3.jpg"
-                            alt="wybieranie koloru hexa" width="370" height="294" />
-                        <span class="about-us__list-title advantages__text">Rozwiązania graficzne</span>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-<!--section:Nasz zespół-->
-
         <section class="team section section--darker-bg">
             <div class="container">
                 <h2 class="section__title">Nasz zespół</h2>
                 <ul class="team-list">
                     <li class="team-card">
-                        <picture>
-                            <source 
-                                srcset="images/our-tam/productdesigner_mobile@1x.jpg 1x, images/our-tam/productdesigner_mobile@2x.jpg 2x"
-                                media="(min-width:320px) and (max-width:767px)" />
-                            <source 
-                                srcset="images/our-tam/productdesigner_tablet@1x.jpg 1x, images/our-tam/productdesigner_tablet@2x.jpg 2x"
-                                media="(min-width:768px) and (max-width:1199px)" />
-                            <source 
-                                srcset="images/our-tam/productdesigner_desktop@1x.jpg 1x, images/our-tam/productdesigner_desktop@2x.jpg 2x"
-                                media="(min-width:1200px)" />
-                            <img class="team-card__img" 
-                                src="images/our-tam/productdesignerresized.jpg" 
-                                alt="Product Designer" 
-                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"/>
-                        </picture>
+                        <img class="team-card__img" src="images/our-tam/productdesigner_mobile@1x.jpg" alt="Product Designer"
+                            sizes="
+                                            (min-width: 1200px) 270px,
+                                            (min-width: 768px) calc(50vw - 30px),
+                                            (min-width: 320px) calc(100vw - 30px)" srcset="
+                                            images/our-tam/productdesigner_mobile@1x.jpg 450w, 
+                                            images/our-tam/productdesigner_mobile@2x.jpg 900w,
+                                            images/our-tam/productdesigner_tablet@1x.jpg 354w, 
+                                            images/our-tam/productdesigner_tablet@2x.jpg 708w,
+                                            images/our-tam/productdesigner_desktop@1x.jpg 270w">
                         <div class="team-card__wrapper">
                             <h4 class="team-card__name">John Doe</h4>
                             <p class="team-card__job-title">Product Designer</p>
@@ -247,25 +159,20 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <picture>
-                            <source srcset="images/our-tam/frontenddeveloper_mobile@1x.jpg 1x, images/our-tam/frontenddeveloper_mobile@2x.jpg 2x"
-                                media="(min-width:320px) and (max-width:767px)" />
-                            <source srcset="images/our-tam/frontenddeveloper_tablet@1x.jpg 1x, images/our-tam/frontenddeveloper_tablet@2x.jpg 2x"
-                                media="(min-width:768px) and (max-width:1199px)" />
-                            <source srcset="images/our-tam/frontenddeveloper_desktop@1x.jpg 1x, images/our-tam/frontenddeveloper_desktop@2x.jpg 2x"
-                                media="(min-width:1200px)" />
-                            <img class="team-card__img" 
-                                src="images/our-tam/frontenddeveloperresized.jpg" 
-                                alt="Frontend Developer" 
-                                sizes="
-                                    (min-width: 1200px) 270px,
-                                    (min-width: 768px) calc(50vw - 30px),
-                                    (min-width: 320px) calc(100vw - 30px)">
-                        </picture>
-                            <div class="team-card__wrapper">
-                                <h4 class="team-card__name">John Doe</h4>
-                                <p class="team-card__job-title">Frontend Developer</p>
-                            </div>
+                        <img class="team-card__img" src="images/our-tam/frontenddeveloper_mobile@1x.jpg"
+                            alt="Frontend Developer" sizes="
+                                            (min-width: 1200px) 270px,
+                                            (min-width: 768px) calc(50vw - 30px),
+                                            (min-width: 320px) calc(100vw - 30px)" srcset="
+                                            images/our-tam/frontenddeveloper_mobile@1x.jpg 450w, 
+                                            images/our-tam/frontenddeveloper_mobile@2x.jpg 900w,
+                                            images/our-tam/frontenddeveloper_tablet@1x.jpg 354w, 
+                                            images/our-tam/frontenddeveloper_tablet@2x.jpg 708w,
+                                            images/our-tam/frontenddeveloper_desktop@1x.jpg 270w">
+                        <div class="team-card__wrapper">
+                            <h4 class="team-card__name">John Doe</h4>
+                            <p class="team-card__job-title">Frontend Developer</p>
+                        </div>
                         <div class="team-card__social-list">
                             <ul class="social-list">
                                 <li class="social-list__item">
@@ -300,20 +207,15 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <picture>
-                            <source 
-                                srcset="images/our-tam/marketing_mobile@1x.jpg 1x, images/our-tam/marketing_mobile@2x.jpg 2x"
-                                media="(min-width:320px) and (max-width:767px)" />
-                            <source 
-                                srcset="images/our-tam/marketing_tablet@1x.jpg 1x, images/our-tam/marketing_tablet@2x.jpg 2x"
-                                media="(min-width:768px) and (max-width:1199px)" />
-                            <source 
-                                srcset="images/our-tam/marketing_desktop@1x.jpg 1x, images/our-tam/marketing_desktop@2x.jpg 2x"
-                                media="(min-width:1200px)" />
-                            <img class="team-card__img" 
-                                src="images/our-tam/marketingresized.jpg" 
-                                alt="Marketing" 
-                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"/>
+                        <img class="team-card__img" src="images/our-tam/marketing_mobile@1x.jpg" alt="Marketing" sizes="
+                                                (min-width: 1200px) 270px,
+                                                (min-width: 768px) calc(50vw - 30px),
+                                                (min-width: 320px) calc(100vw - 30px)" srcset="
+                                                images/our-tam/marketing_mobile@1x.jpg 450w, 
+                                                images/our-tam/marketing_mobile@2x.jpg 900w,
+                                                images/our-tam/marketing_tablet@1x.jpg 354w, 
+                                                images/our-tam/marketing_tablet@2x.jpg 708w,
+                                                images/our-tam/marketing_desktop@1x.jpg 270w">
                         </picture>
                         <div class="team-card__wrapper">
                             <h4 class="team-card__name">John Doe</h4>
@@ -353,21 +255,15 @@
                         </div>
                     </li>
                     <li class="team-card">
-                        <picture>
-                            <source 
-                                srcset="images/our-tam/uidesigner_mobile@1x.jpg 1x, images/our-tam/uidesigner_mobile@2x.jpg 2x"
-                                media="(min-width:320px) and (max-width:767px)" />
-                            <source 
-                                srcset="images/our-tam/uidesigner_tablet@1x.jpg 1x, images/our-tam/uidesigner_tablet@2x.jpg 2x"
-                                media="(min-width:768px) and (max-width:1199px)" />
-                            <source 
-                                srcset="images/our-tam/uidesigner_desktop@1x.jpg 1x, images/our-tam/uidesigner_desktop@2x.jpg 2x"
-                                media="(min-width:1200px)" />
-                            <img class="team-card__img" 
-                                src="images/our-tam/uidesignerresized.jpg" 
-                                alt="UI Designer" 
-                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"/>
-                        </picture>
+                        <img class="team-card__img" src="images/our-tam/uidesigner_mobile@1x.jpg" alt="UI Designer" sizes="
+                                                (min-width: 1200px) 270px,
+                                                (min-width: 768px) calc(50vw - 30px),
+                                                (min-width: 320px) calc(100vw - 30px)" srcset="
+                                                images/our-tam/uidesigner_mobile@1x.jpg 450w, 
+                                                images/our-tam/uidesigner_mobile@2x.jpg 900w,
+                                                images/our-tam/uidesigner_tablet@1x.jpg 354w, 
+                                                images/our-tam/uidesigner_tablet@2x.jpg 708w,
+                                                images/our-tam/uidesigner_desktop@1x.jpg 270w">
                         <div class="team-card__wrapper">
                             <h4 class="team-card__name">John Doe</h4>
                             <p class="team-card__job-title">UI Designer</p>

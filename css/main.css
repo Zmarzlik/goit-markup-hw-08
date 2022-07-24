@@ -75,22 +75,6 @@ img {
   margin: 0px auto;
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    padding: 0 15px;
-    align-items: center;
-    margin: 0px auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    padding: 0 15px;
-    align-items: center;
-    margin: 0px auto;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -644,13 +628,6 @@ h4 {
   background-size: cover;
   cursor: pointer;
   margin: 15px;
-}
-
-@media screen and (min-width: 768px) {
-  .modal {
-    padding-left: auto;
-    padding-right: auto;
-  }
 }
 
 .modal-form {
